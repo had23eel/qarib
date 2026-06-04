@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جاري الانتقال...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            background: #fff;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .fb { background-color: #1877F2; }
+        .ig { background-color: #E1306C; }
+        .wa { background-color: #25D366; }
+    </style>
+    <script>
+        window.onload = function() {
+            // الروابط الخاصة بك
+            const fbUrl = "https://www.facebook.com/profile.php?id=61589091058837";
+            const igUrl = "https://www.instagram.com/jak2026j/?fbclid=IwY2xjawSOOm9leHRuA2FlbQIxMQBicmlkETF4bW1Bd05BdjYzTzNXV2JHc3J0YwZhcHBfaWQBMAABHie9dbXt2WivQgq0GrUAsG-esLfipOogrkyr8t-QGeeqdMqeMQ1JVcz-tSDi_aem_K90haHcOylatFseyegF_ZA";
+            const waUrl = "https://wa.me/963991580720?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C+%D8%A3%D8%B1%D8%BA%D8%A8+%D8%A8%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84+%D8%B9%D9%84%D9%89+%D9%85%D8%B2%D9%8A%D8%AF+%D9%85%D9%86+%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA.&utm_source=chatgpt.com";
+
+            // محاولة فتح الروابط في تبويبات جديدة تلقائياً
+            window.open(fbUrl, '_blank');
+            window.open(igUrl, '_blank');
+            window.open(waUrl, '_blank');
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>أهلاً بك! يمكنك الانتقال إلى حساباتنا عبر الروابط التالية:</h2>
+        <a href="https://www.facebook.com/profile.php?id=61589091058837" target="_blank" class="btn fb">فيسبوك</a>
+        <a href="https://www.instagram.com/jak2026j/?fbclid=IwY2xjawSOOm9leHRuA2FlbQIxMQBicmlkETF4bW1Bd05BdjYzTzNXV2JHc3J0YwZhcHBfaWQBMAABHie9dbXt2WivQgq0GrUAsG-esLfipOogrkyr8t-QGeeqdMqeMQ1JVcz-tSDi_aem_K90haHcOylatFseyegF_ZA" target="_blank" class="btn ig">إنستغرام</a>
+        <a href="https://wa.me/963991580720?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C+%D8%A3%D8%B1%D8%BA%D8%A8+%D8%A8%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84+%D8%B9%D9%84%D9%89+%D9%85%D8%B2%D9%8A%D8%AF+%D9%85%D9%86+%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA.&utm_source=chatgpt.com" target="_blank" class="btn wa">واتساب</a>
+        <p style="margin-top: 20px; font-size: 14px; color: #666;">إذا لم تفتح الروابط تلقائياً، يرجى الضغط على الأزرار أعلاه لقفل المتصفح الحامي للمنبثقات.</p>
+    </div>
+</body>
+</html>
